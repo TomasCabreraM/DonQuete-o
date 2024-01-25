@@ -19556,12 +19556,13 @@ a.action_button:hover{text-decoration:none}
     text-shadow: 1px 1px 2px #000; /* Proper text shadow styling */
     flex-wrap: wrap; /* Allows text to wrap */
     justify-content: center; /* Center content if wrapped */
+	text-align: center;
 }
 
 /* Popover Icon */
 .whatsapp-popover img {
-    width: 66px; /* Icon Size */
-    height: 66px;
+    width: 100px; /* Icon Size */
+    height: 100px;
     transition: transform 0.3s ease;
 }
 
