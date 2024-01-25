@@ -19533,6 +19533,8 @@ a.action_button:hover{text-decoration:none}
     opacity: 0; /* Start Transparent */
     transform: translateY(20px); /* Start Lowered */
     transition: all 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* Bouncy Transition */
+	width: auto; /* Adjust width as needed */
+    max-width: 200px; /* Limit the maximum width */
 }
 
 /* Popover Visibility */
@@ -19545,13 +19547,15 @@ a.action_button:hover{text-decoration:none}
 /* Popover Content */
 .whatsapp-popover a {
     text-decoration: none;
-    color: blue; /* Inherits White Color */
+    color: blue;
     display: flex;
     align-items: center;
-    gap: 10px; /* Space Between Icon and Text */
-    font-size: 1.1em; /* Slightly Larger Text */
-	font-weight: 900;
-	text-shadow: #000;
+    gap: 10px; /* Space between icon and text */
+    font-size: 1.1em;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px #000; /* Proper text shadow styling */
+    flex-wrap: wrap; /* Allows text to wrap */
+    justify-content: center; /* Center content if wrapped */
 }
 
 /* Popover Icon */
