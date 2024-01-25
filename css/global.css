@@ -19590,3 +19590,16 @@ a.action_button:hover{text-decoration:none}
 .logos{
 height: 100px!important;
 }
+
+#navbarbuttons {
+    font-size: larger;
+    font-weight: 900;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#navbarbuttons:hover {
+    color: #007bff; /* Change text color on hover */
+    background-color: #f8f9fa; /* Light background color on hover */
+    transform: translateY(-2px); /* Slight move up effect on hover */
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+}
